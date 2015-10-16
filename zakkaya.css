@@ -1,0 +1,436 @@
+.clear{
+	clear: both;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-size: 12px;
+}
+
+body{
+	background: #feedde;
+}
+
+main{
+	background: #ffffff;
+	width: 940px;
+	margin: 0 auto;
+	color: #888888;
+}
+
+#content{
+	padding-bottom: 60px;
+	border-bottom: solid 10px #cca953;
+}
+
+/* headerここから */
+
+header{
+	margin: 0 20px;
+}
+
+header img{
+	float: left;
+	margin-right: 30px;
+}
+
+#header-text{
+	float: right;
+	width: 605px;
+}
+
+#header-text p{
+	text-align: right;
+	font-size: 12px;
+	height: 20px;
+}
+
+/* headerここまで */
+/* navここから */
+nav ul{
+	display: table;
+	text-align: center;
+	width: 100%;
+}
+
+nav li{
+	display: table-cell;
+	width: 121px;
+	height: 40px;
+	background: url(lesson2/bg_img/menu1.png) repeat-x;
+}
+
+nav ul li a{
+	display: block;
+	width: 115px;
+	height: 37px;
+	color: #888888;
+	position: relative;
+	top: 3px;
+	left: 3px;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transiton: 1s;
+}
+
+
+nav ul li a:hover{
+	background: #ffbb00;
+	color: #ffffff;
+}
+
+nav ul li a span{
+	position: relative;
+	top: 10px;
+}
+
+#header-div{
+	height: 12px;
+	background: url(lesson2/bg_img/header.png);
+}
+/* navここまで */
+/* mainここから */
+article{
+	margin: 20px 10px 0px;
+}
+
+#article-index{
+	background: url(lesson2/bg_img/main-back.png) no-repeat;
+}
+
+section:first-child{
+	height: 305px;
+	margin-bottom: 40px;
+}
+
+section:first-child img{
+	float: left;
+	margin: 30px 22px 0 20px;
+}
+
+.section-header{
+	height: 25px;
+}
+
+.section1{
+	background: #ffffff;
+	margin-top: 20px;
+}
+
+#section1-index{
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+	height: 275px;
+	width: 268px;
+}
+
+h1{
+	font-size: 16px;
+	color: #ffffff;
+	margin-left: 5px;
+	padding-top: 3px;
+}
+
+h1 span{
+	margin-left: 5px;
+	position: relative;
+	bottom: 2px;
+}
+
+h1::before{
+	content: url(lesson2/bg_img/icon1.png);
+}
+
+#section1-header{
+	background: #ffaa00;
+}
+
+.section1-text{
+	border-bottom: 1px dotted;
+	padding-bottom: 20px;
+}
+
+#section1-text-1{
+	height: 90px;
+	padding: 0;
+}
+
+#section1-text-2{
+	height: 70px;
+	padding: 0;
+}
+
+#section1-text-3{
+	height: 80px;
+	padding: 0;
+}
+
+h2{
+	font-size: 15px;
+}
+
+.section1 h2{
+	color: #663300;
+	margin-top: 2px;
+}
+
+.section1 h2::before{
+	content: url(lesson2/bg_img/icon3.png);
+}
+
+.section1 p{
+	font-size: 12px;
+	margin: 0 13px;
+}
+
+
+#left-bottom{
+	background: #ffdd77;
+	float: left;
+	width: 307px;
+	margin-left: 10px;
+}
+
+#left-bottom-text{
+	margin: 10px 21px 20px;
+}
+
+#section2-header{
+	background: #333333;
+	width: 110px;
+	margin-bottom: 10px;
+}
+
+
+#section2-header h1::before{
+	content: url(lesson2/bg_img/icon2.png);
+}
+
+#left-bottom p{
+	margin-bottom: 10px;
+}
+
+#right-bottom{
+	float: right;
+	margin-right: 15px;
+	width: 555px;
+}
+
+#section3-header{
+	width: 100%;
+	background: #00aaff;
+}
+
+#section3-header h1{
+	width: 20%;
+	float: left;
+}
+
+#section3-header p{
+	width: 70%;
+	color: #ffffff;
+	float: right;
+	text-align: right;
+	margin: 5px 10px 0 0;
+}
+
+.section3-all{
+	display: table;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted;
+}
+
+.section3-left{
+	display: table-cell;
+}
+
+.section3-right{
+	display: table-cell;
+}
+
+.section3-text{
+	width: 150px;
+	float: right;
+	padding: 0 13px;
+}
+
+#right-bottom-text img{
+}
+
+#right-bottom-text h2{
+	margin-bottom: 5px;
+}
+
+
+/* 別ページ共通 */
+
+#section-ko{
+	margin: 0 10px;
+}
+
+#section-ko p{
+	line-height: 2;
+}
+
+#section-ko a{
+	font-size: 12px;
+}
+
+/* zakkaya2ここから */
+#article-zakkaya2{
+	padding-bottom: 100px;
+}
+
+#section-header-out{
+	padding-bottom: 2px;
+	border-bottom: 1px solid #888888;
+}
+
+#section-header-ko{
+	background: #ffaa00;
+}
+
+#section-header-ko h1{
+	width: 20%;
+	float: left;
+}
+
+
+#section-header-ko p{
+	width: 70%;
+	color: #ffffff;
+	float: right;
+	text-align: right;
+	margin: 0px 10px 0px 0px;
+}
+
+#section-ko .section1-text h2{
+	float: left;
+}
+
+time{
+	font-size: 12px;
+	float: right;
+}
+
+/* zakkaya2ここまで */
+/* zakkaya3ここから */
+
+#zakkaya-3-5{
+	margin-top: 20px;
+}
+
+aside{
+	float: left;
+	border: solid 1px #ffaa00;
+	width: 220px;
+}
+
+aside h2{
+	text-indent: 10px;
+	color: #ffffff;
+	background: #ffaa00;
+}
+
+
+aside ul li{
+	border-bottom: 1px dotted #888888;
+	background: url(lesson2/bg_img/icon4.png) no-repeat 5px 15px;
+}
+
+
+
+aside ul li:last-child{
+	border: none;
+}
+
+aside ul li a{
+	color: #888888;
+	display: block;
+	padding: 10px 10px 10px 20px;
+}
+
+#category{
+	width: 650px;
+	float: right;
+}
+
+#category .category-header-out{
+	background: #dfdfdf;
+	margin-top: 50px;
+}
+
+#category .category-header-out:first-child{
+	margin-top: 0;
+}
+
+#category h1{
+	color: #ffaa00;
+}
+
+#category h1:before{
+	content: url(lesson2/bg_img/icon1a.png);
+}
+
+.category-imgtext{
+	margin-top: 20px;
+}
+
+#category img{
+	float: left;
+}
+
+.category-text{
+	float: right;
+	width: 400px;
+}
+
+.category-text h2{
+	color: #663300;
+}
+
+.category-text p span{
+	color: #883300;
+	font-size: 18px;
+	font-weight: bold;
+}
+/* zakkaya3ここまで */
+
+
+
+/* mainここまで */
+/* footerここから */
+footer{
+	height: 20px;
+	background: url(lesson2/bg_img/footer.png);
+	text-align: center;
+}
+
+small{
+	font-size: 10px;
+	color: #ffffff;
+	position: relative;
+	top: 1px;
+}
+/* footerここまで */
+
+
+/* スマホ用設定 */
+@media only screen and (max-width:768px){
+	/* 気が向いたら。。。やるかも？ */
+}
